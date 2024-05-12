@@ -16,6 +16,15 @@ html{
     font-family: 'Roboto','sans-serif';
     box-sizing: border-box;
 }
+ul
+{
+  list-style: none;
+  padding: 0;
+}
+img
+{
+  width: 100%;
+}
 
 .roboto-light {
     font-family: "Roboto", sans-serif;

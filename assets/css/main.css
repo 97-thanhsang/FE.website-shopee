@@ -130,6 +130,25 @@
     display: none;
 
 }
+.header__notify::before{
+    content: "";
+    display: block;
+    position: absolute;    
+    right: 1.2rem;
+    top: -3rem;
+    border-width: 2rem 2.6rem;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color);
+}
+.header__notify::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2rem;    
+    left: 0;
+    top: -2rem;
+}
 .header__notify-header{
     height: 4rem;
     background-color: var(--white-color);

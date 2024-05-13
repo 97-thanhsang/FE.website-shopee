@@ -127,6 +127,7 @@
     /* thuộc tính để xem giá trị được hiển thị ở đâu */
     transform-origin: calc(100% - 2rem) top;
     animation: headerNotifyGrowth ease-in .2s;
+    will-change: opacity,transform;
     display: none;
 
 }

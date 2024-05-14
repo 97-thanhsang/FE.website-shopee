@@ -79,48 +79,18 @@ img {
   border-radius: 0.5rem;
 }
 /* End : Modal */
-/* Begin : Auth modal */
-.auth-form{
-  width: 50rem;
-}
-.auth-form__container{
-  padding: 0 3.2rem;
-}
-.auth-form__header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.auth-form__heading{
-  font-size: 2.2rem;
-  font-weight: 400;
-  color: var(--text-color);
-}
-.auth-form__switch-btn{
-  font-size: 1.6rem;
-  color: var(--primary-color);
-  font-weight: 400;
-}
-.auth-form__switch-btn:hover{
-  cursor: pointer;
-}
-.auth-form__form{
-  
-}
-.auth-form__group{}
-.auth-form__input{
-  margin-top: 1.6rem;
-  width: 100%;
-  height: 4rem;
-  padding: 0 1.2rem;
-  font-size: 1.4rem;
-  border: .1rem solid #dbdbdb;
+/* Begin : Button  */
+.btn{
+  padding: 0;
+  min-width: 14.2rem;
+  height: 3.6rem;
+  text-decoration: none;
+  border: none;
   border-radius: .2rem;
-  outline: none;
+  font-size: 1.5rem;
 }
-.auth-form__aside{}
-.auth-form__policy-text{}
-.auth-form__policy-link{}
-.auth-form__controls{}
-.auth-form__socials{}
-/* End : Auth modal */
+.btn.btn--primary{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+/* End : Button */

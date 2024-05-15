@@ -85,7 +85,8 @@
     padding: .8rem;
     border-radius: .2rem;
     display: none;
-    animation: fadeIn ease-in .5s;;
+    -webkit-animation: fadeIn ease-in .5s;
+            animation: fadeIn ease-in .5s;;
 }
 /* class mark */
 .header__qr::before{
@@ -126,7 +127,8 @@
     cursor: default;
     /* thuộc tính để xem giá trị được hiển thị ở đâu */
     transform-origin: calc(100% - 2rem) top;
-    animation: headerNotifyGrowth ease-in .2s;
+    -webkit-animation: headerNotifyGrowth ease-in .2s;
+            animation: headerNotifyGrowth ease-in .2s;
     will-change: opacity,transform;
     display: none;
 
@@ -161,7 +163,10 @@
     font-size: 1.4rem;
     line-height: 4rem;
     margin: 0 0 0 1.2rem;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 
 }
 .header__notify-list{
@@ -185,7 +190,8 @@
 }
 .header__notify-img{
     width: 4.8rem;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 .header__notify-info{
     margin-left: 1.2rem;
@@ -229,6 +235,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1.2rem;
+    margin-top: 1rem;
   }
   .auth-form__heading{
     font-size: 2.2rem;
@@ -306,5 +314,24 @@
   }
   .auth-form__socials--title{
     margin: 0 3.6rem;
+  }
+  .auth-form__help{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .auth-form__help-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #939393;
+  }
+  .auth-form__help-separate{
+    display: block;
+    border-left: .1rem solid #EAEAEA;
+    height: 1.8rem;
+    margin: 0 1.6rem;
+  }
+  .auth-form__help-forgot{
+    color: var(--primary-color);
   }
   /* End : Auth modal */

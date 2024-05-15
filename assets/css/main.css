@@ -515,6 +515,7 @@
   .header__cart{
     width: 15rem;
     display: flex;
+    position: relative;
   }
   .header__cart-icon{
     color: var(--white-color);

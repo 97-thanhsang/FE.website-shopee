@@ -34,7 +34,7 @@
 .header__navbar-item,
 .header__navbar-item-link{
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: var(--white-color);
     text-decoration: none;
     font-weight: 300;
@@ -161,7 +161,7 @@
     color: #999;
     margin: 0;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     line-height: 4rem;
     margin: 0 0 0 1.2rem;
     -webkit-user-select: none;
@@ -199,7 +199,7 @@
 }
 .header__notify-name{
     display: block;
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: var(--text-color);
     font-weight: 400;
     line-height: 1.8rem;
@@ -217,7 +217,7 @@
     text-decoration: none;
     color: var(--text-color);
     padding: .8rem 4.8rem;    
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     font-weight: 400;
     margin: auto;
 }
@@ -261,7 +261,7 @@
     width: 100%;
     height: 4rem;
     padding: 0 1.2rem;
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     border: .1rem solid var(--border-color);
     border-radius: .2rem;
     outline: none;
@@ -323,7 +323,7 @@
   }
   .auth-form__help-link{
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: #939393;
   }
   .auth-form__help-separate{
@@ -396,7 +396,7 @@
   }
   .header__search-history-heading{
     margin: 1.4rem;
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: #999;
     font-weight: 400;
 
@@ -418,7 +418,7 @@
   }
   .header__search-history-item-link{
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: var(--text-color);
   }
   .header__search-select{
@@ -435,11 +435,11 @@
   }
   
   .header__search-select-label{
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: var(--text-color);
   }
   .header__search-select-icon{
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: rgba(74, 74, 74,0.7);
     margin: 0 1.4rem;
   }
@@ -480,11 +480,11 @@
     background-color: #fafafa;
   }
   .header__search-option-item-label{
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color:var(--text-colorco)
   }
   .header__search-option-item-icon{
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color:var(--primary-color);
     margin-left: .8rem;
     display: none;
@@ -508,7 +508,7 @@
     background-color: #fb6445;
   }
   .header__search-btn-icon{
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
     color: var(--white-color);
     margin: auto;
   }

@@ -59,6 +59,11 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+/* Begin : Root */
+.d-none{
+  display: none!important;
+}
+/* End : Root */
 /* Begin : Modal */
 .modal {
   position: fixed;

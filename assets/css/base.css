@@ -10,7 +10,8 @@
   --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
 
 
-  --font-size-14:1.4rem;
+  --value-font-size-14:1.4rem;
+  --value-font-weight-400:400;
 
   --value-box-shadow:0 .1rem .2rem #C0C0C0;
   --value-box-shadow-2:0 .1rem 3.125rem rgba(0,0,0,0.2);
@@ -101,7 +102,7 @@ img {
 /* Begin : Button  */
 .btn{
   padding: 0 1.2rem;
-  min-width: 14.2rem;
+  min-width: 12.4rem;
   height: 3.4rem;
   text-decoration: none;
   border: none;

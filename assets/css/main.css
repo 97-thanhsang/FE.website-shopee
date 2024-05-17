@@ -836,15 +836,37 @@
   margin-right: 2.2rem;
 }
 .home-filter__page-current{
-
+  color: var(--primary-color);
 }
 .home-filter__page-total{
 
 }
 .home-filter__page-control{
-
+  border-radius: .2rem;
+  overflow: hidden;
+  display: flex;
+  width: 7.2rem;
+  height: 3.6rem;
 }
 .home-filter__page-btn{
-
+  flex: 1;
+  display: flex;
+  background-color: var(--white-color);
+  text-decoration: none;
+}
+.home-filter__page-btn:first-child{
+  border-right: 1px solid #eee;
+}
+.home-filter__page-btn--disabled{
+  cursor: default;
+  background-color: #F9F9F9;
+}
+.home-filter__page-btn--disabled .home-filter__page-icon{
+  color: #ccc;
+}
+.home-filter__page-icon{
+  margin: auto;
+  font-size: var(--value-font-size-14);
+  color: #555;
 }
 /* End : Filter */

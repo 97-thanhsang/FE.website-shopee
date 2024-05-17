@@ -70,17 +70,22 @@ img {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -1.2rem;
-  margin-right: -1.2rem;
+  margin-left: -.5rem;
+  margin-right: -.5rem;
 }
 .grid__column-2{
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
   width: 16.6667%;
 }
+.grid__column-2-4{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 20%;
+}
 .grid__column-10{
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
   width: 83.3334%;
 }
 /* End : Responesive */

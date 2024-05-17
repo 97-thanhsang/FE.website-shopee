@@ -875,13 +875,29 @@
 
 }
 .home-product-item{
-
+  margin-top: 1rem;
+  background-color: var(--white-color);
 }
 .home-product-item__img{
-
+  padding-top: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .home-product-item__name{
-
+  font-size: var(--value-font-size-14);
+  font-weight: var(--value-font-weight-400);
+  color: var(--text-color);
+  line-height: 1.8rem;
+  margin: 1rem;
+  /* Xử lý chỉ hiện 2 dòng */
+  height: 3.6rem;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
 }
 .home-product-item__vouchers{
 
@@ -935,6 +951,6 @@
 
 }
 .home-product-item__sale-off-percent{
-  
+
 }
 /* End : Product */

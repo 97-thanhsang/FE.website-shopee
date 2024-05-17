@@ -54,6 +54,7 @@ img {
   font-weight: 700;
   font-style: normal;
 }
+/* Begin : Responesive */
 .grid {
   width: 1200px;
   max-width: 100%;
@@ -65,7 +66,21 @@ img {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -1.2rem;
+  margin-right: -1.2rem;
 }
+.grid__column-2{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  width: 16.6667%;
+}
+.grid__column-10{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  width: 83.3334%;
+}
+/* End : Responesive */
+
 /* Begin : Root */
 .d-none{
   display: none!important;

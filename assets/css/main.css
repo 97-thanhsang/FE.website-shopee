@@ -459,6 +459,7 @@
   border-radius: var(--value-border-radius);
   box-shadow: 0 0.1rem 0.2rem #c0c0c0;
   display: none;
+  z-index: 1;
 }
 .header__search-history::before {
   content: "";
@@ -806,4 +807,44 @@
 
 /* End : category */
 /* Begin : Filter */
+.home-filter{
+  background-color: rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 2.2rem;
+  border-radius: .2rem;
+  line-height: normal;
+}
+.home-filter-label{
+  font-size: var(--value-font-size-14);
+  color: #555;
+  margin-right: 1.6rem;
+}
+.home-filter__btn{
+  margin-right: 1.2rem;
+  min-width: 9rem;
+}
+.home-filter__page{
+  display: flex;
+  align-items: center;
+  margin-right: 1.6rem;
+  margin-left: auto;
+}
+.home-filter__page-number{
+  font-size: var(--value-font-size-14);
+  color: var(--text-color);
+  margin-right: 2.2rem;
+}
+.home-filter__page-current{
+
+}
+.home-filter__page-total{
+
+}
+.home-filter__page-control{
+
+}
+.home-filter__page-btn{
+
+}
 /* End : Filter */

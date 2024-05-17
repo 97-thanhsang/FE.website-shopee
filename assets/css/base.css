@@ -134,6 +134,7 @@ img {
   justify-content: center;
   align-items: center;
   line-height: 1.6rem;
+  background-color: var(--white-color);
 }
 .btn--size-s{
   height:3.2rem;
@@ -153,3 +154,63 @@ img {
   color:#949494;
 }
 /* End : Button */
+/* Begin : Select */
+.select-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  min-width: 20rem;
+  height: 3.4rem;
+  padding: 0 1.2rem;
+  border-radius: .2rem;
+  background-color: var(--white-color);
+  position: relative;
+  margin: .4rem 0;
+}
+.select-input:hover .select-input__list{
+  cursor: pointer;
+  display: block;
+}
+.select-input__label{
+  font-size: var(--value-font-size-14);
+}
+.select-input__icon{
+  font-size: var(--value-font-size-14);
+  color: rgba(74, 74, 74, 0.7);
+}
+.select-input__list{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  border-radius: var(--value-border-radius);
+  background-color: var(--white-color);
+  box-shadow: var(--value-box-shadow);
+  display: none;
+}
+.select-input__list::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  height: 4rem;
+  width: 100%;
+  /* background-color: blue; */
+}
+.select-input__item{
+  /* padding: 1.4rem 0; */
+}
+.select-input__item-link{
+  display: block;
+  padding: 1.4rem 0;
+  font-size: var(--value-font-size-14);
+  color: var(--text-color);
+  text-decoration: none;
+}
+.select-input__item-link:hover
+{
+  color: var(--primary-color);
+}
+/* End : Select */

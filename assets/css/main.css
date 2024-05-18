@@ -875,6 +875,7 @@
 
 }
 .home-product-item{
+    position: relative;
   margin-top: 1rem;
   background-color: var(--white-color);
 }
@@ -999,12 +1000,42 @@
 
 }
 .home-product-item__badge{
+    position: absolute;
+    top: 1rem;
+    left: -.4rem;
+    color: var(--primary-color);
+    background-color: currentColor;
+    
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 .4rem;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
 
+}
+.home-product-item__badge::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom:-.4rem ;
+    left: 0;
+    
+ /* border-width: .3rem;
+ border-style: solid;
+ border-color: blue blue transparent transparent; */
+
+    border-top: .4rem solid currentColor;
+    border-left: .4rem solid transparent;
+
+    filter: brightness(40%);
+  
 }
 .home-product-item__badge-icon{
-
+    font-size: .9rem;
+    color: var(--white-color);
 }
 .home-product-item__badge-name{
+    color: var(--white-color);
 
 }
 .home-product-item__sale-off{

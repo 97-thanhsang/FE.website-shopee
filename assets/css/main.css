@@ -878,18 +878,22 @@
   margin-top: 1rem;
   background-color: var(--white-color);
 }
+
 .home-product-item__img{
   padding-top: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+.home-product-item__content{
+    margin: 1rem;
+}
 .home-product-item__name{
   font-size: var(--value-font-size-14);
   font-weight: var(--value-font-weight-400);
   color: var(--text-color);
   line-height: 1.8rem;
-  margin: 1rem;
+  margin: 0 0 1rem 0;
   /* Xử lý chỉ hiện 2 dòng */
   height: 3.6rem;
   overflow: hidden;
@@ -900,25 +904,55 @@
   text-overflow: ellipsis;
 }
 .home-product-item__vouchers{
-
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
 }
-.home-product-item__voucher-item{
-
+.home-product-item__voucher-item-1{
+    color: rgb(238, 77, 45,1);
+    border: .1rem solid rgb(238, 77, 45,0.4);
+    padding: .1rem .4rem;
+}
+.home-product-item__voucher-item-2{
+    color: rgba(255,176,0,1);
+    border: .1rem solid rgb(238, 77, 45,0.4);
+    padding: .1rem .4rem;
 }
 .home-product-item__price{
-
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+.home-product-item__price-unit{
+    font-size: 1rem;
 }
 .home-product-item__price-new{
-
+    display: flex;
+    font-size: var(--value-font-size-16);
+    color: var(--primary-color);
 }
 .home-product-item__price-old{
-
+    font-size: var(--value-font-size-14);
+    color: rgba(0,0,0,.26);
+    text-decoration: line-through;
+    max-width: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .home-product-item__price-discount{
-
+    background-color: rgba(254,238,234,1);
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: .1rem .3rem;
 }
 .home-product-item__rating{
-
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 1rem;
 }
 .home-product-item__rating-star{
 
@@ -926,16 +960,42 @@
 .home-product-item__rating-star-icon{
 
 }
+.home-product-item__rating-star-icon--good{
+    color: rgba(255,176,0,1);
+}
+.home-product-item__rating-star-icon--bad{
+    color: rgba(255,176,0,0.5);
+}
 .home-product-item__rating-purchase{
-
+    margin-left: .8rem;
+    color: rgba(0,0,0,.87);
+    font-size: 1.3rem;
 }
 .home-product-item__location{
+    display: flex;
+}
+.home-product-item__location-deli{
+    font-size: 1.2rem;
+    color: rgba(38,170,153,1);
+    font-weight: 400;
+}
+.home-product-item__location-deli-icon{
+    
+}
+.home-product-item__location-deli-name{
+    margin-left: .4rem;
+    
+}
+.home-product-item__location-place{
+    margin-left: .8rem;
+    font-size: 1.3rem;
+    color: rgba(0,0,0,.46);
+    font-weight: 400;
+}
+.home-product-item__location-place-icon{
 
 }
-.home-product-item__location-icon{
-
-}
-.home-product-item__location-name{
+.home-product-item__location-place-name{
 
 }
 .home-product-item__badge{

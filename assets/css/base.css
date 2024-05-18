@@ -196,6 +196,7 @@ img {
   background-color: var(--white-color);
   box-shadow: var(--value-box-shadow);
   display: none;
+  z-index: 1;
 }
 .select-input__list::before{
   content: "";

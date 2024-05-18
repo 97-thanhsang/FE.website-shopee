@@ -22,11 +22,20 @@
 
 .header__navbar-user{
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+
 }
+
 .header__navbar-user:hover .header__navbar-user-menu{
+  
+  transform-origin: calc(100% - 3.2rem) top;
+  -webkit-animation: headerGrowth linear 0.2s;
+  animation: headerGrowth linear 0.2s;
+  will-change: opacity, transform;
   display: block;
 }
+
+
 .header__navbar-user-img{
   width: 2.2rem;
   height: 2.2rem;
@@ -47,7 +56,14 @@
   z-index: 3;
   box-shadow: var(--value-box-shadow);
   margin-top: .4rem;
-  display: none;
+  
+  transform-origin: calc(100% - 3.2rem) top;
+  -webkit-animation: headerHidden linear 0.2s;
+  animation: headerHidden linear 0.2s;
+  will-change: opacity, transform;
+  display: none;  
+  
+
 }
 .header__navbar-user-menu::before {
   content: "";
@@ -97,10 +113,19 @@
 
 .header__navbar-item--has-qr:hover .header__qr {
   display: block;
+  -webkit-animation: fadeIn linear 0.2s;
+  animation: fadeIn linear 0.2s;
 }
+
 .header__navbar-item--has-notify:hover .header__notify {
+    /* thuộc tính để xem giá trị được hiển thị ở đâu */
+    transform-origin: calc(100% - 3.2rem) top;
+    -webkit-animation: headerGrowth linear 0.2s;
+    animation: headerGrowth linear 0.2s;
+    will-change: opacity, transform;
   display: block;
 }
+
 .header__navbar-item,
 .header__navbar-item-link,
 .header__navbar-icon-link {
@@ -161,8 +186,9 @@
   padding: 0.8rem;
   border-radius:var(--value-border-radius);
   display: none;
-  -webkit-animation: fadeIn ease-in 0.5s;
-  animation: fadeIn ease-in 0.5s;
+  -webkit-animation: fadeOut linear 0.2s;
+  animation: fadeOut linear 0.2s;
+  z-index: 2;
 }
 /* class mark */
 .header__qr::before {
@@ -199,13 +225,13 @@
   background-color: var(--white-color);
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
   cursor: default;
-  /* thuộc tính để xem giá trị được hiển thị ở đâu */
   transform-origin: calc(100% - 3.2rem) top;
-  -webkit-animation: headerNotifyGrowth ease-in 0.2s;
-  animation: headerNotifyGrowth ease-in 0.2s;
+  -webkit-animation: headerHidden linear 0.2s;
+  animation: headerHidden linear 0.2s;
   will-change: opacity, transform;
+  
   display: none;
-  z-index: 1;
+  z-index: 2;
   border-radius: var(--value-border-radius);
 }
 .header__notify::before {
@@ -504,7 +530,14 @@
 .header__search-select:hover .header__search-option {
   cursor: pointer;
   display: block;
+  
+  
+  -webkit-animation: fadeIn linear 0.2s;
+  animation: fadeIn linear 0.2s;
+  
+  
 }
+
 .header__search-select-label {
   font-size: var(--value-font-size-14);
   color: var(--text-color);
@@ -522,9 +555,11 @@
   box-shadow: 0 0.1rem 0.2rem #c0c0c0;
   padding-left: 0;
   /* overflow: hidden; */
+  cursor: pointer;  
+  -webkit-animation: fadeOut linear 0.2s;
+  animation: fadeOut linear 0.2s;
   display: none;
-  -webkit-animation: fadeIn ease-in 0.2s;
-  animation: fadeIn ease-in 0.2s;
+  
 }
 .header__search-option::before {
   position: absolute;
@@ -595,8 +630,14 @@
   cursor: pointer;
 }
 .header__cart-warp:hover .header__cart-list {
+  
+  transform-origin: calc(100% - 3.2rem) top;
+  -webkit-animation: headerGrowth linear 0.2s;
+  animation: headerGrowth linear 0.2s;
+  will-change: opacity, transform;
   display: block;
 }
+
 .header__cart-icon {
   color: var(--white-color);
   font-size: 2.4rem;
@@ -623,10 +664,15 @@
   border-radius: var(--value-border-radius);
   box-shadow: var(--value-box-shadow-2);
   text-align: center;
+  transform-origin: calc(100% - 3.2rem) top;
+  -webkit-animation: headerHidden linear 0.2s;
+  animation: headerHidden linear 0.2s;
+  will-change: opacity, transform;
   display: none;
-  -webkit-animation: fadeIn ease-in 0.2s;
-  animation: fadeIn ease-in 0.2s;
+  
+  
   cursor: default;
+  z-index: 1;
 }
 .header__cart-list::after {
   content: "";
@@ -667,6 +713,8 @@
   font-weight: var(--value-font-weight-400);
 }
 .header__cart-list-items {
+  height: 55vh;
+  overflow-y: auto;
 }
 .header__cart-item {
   display: flex;
@@ -700,6 +748,7 @@
   text-align: left;
   max-width: 20rem;
   overflow: hidden;
+  
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -895,7 +944,7 @@
   padding-top: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: top center;
 }
 .home-product-item__content{
     padding: 1rem;
@@ -1061,6 +1110,7 @@
     background-color: rgba(255, 216, 64, .9);
     text-align: center;
     padding: .4rem 0;
+    border-top-right-radius: .2rem;
     /* border-top: .4rem solid red;
     border-right: .4rem solid red; */
 

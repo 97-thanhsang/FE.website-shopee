@@ -4,12 +4,15 @@
   --black-color: #000;
   --text-color: #333;
   --border-color : #dbdbdb;
+  --gold-color : rgba(255,176,0,1);
 
   --header-height : 12rem;
   --navbar-height:3.548rem;
   --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
 
 
+  --value-font-size-12:1.2rem;
+  --value-font-size-13:1.3rem;
   --value-font-size-14:1.4rem;
   --value-font-size-16:1.6rem;
 

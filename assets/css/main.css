@@ -861,7 +861,7 @@
   display: flex;
   align-items: center;
   padding: 1.2rem 2.2rem;
-  border-radius: .2rem;
+  border-radius: var(--value-border-radius);
   line-height: normal;
 }
 .home-filter-label{
@@ -891,7 +891,7 @@
 
 }
 .home-filter__page-control{
-  border-radius: .2rem;
+  border-radius: var(--value-border-radius);
   overflow: hidden;
   display: flex;
   width: 7.2rem;
@@ -1139,3 +1139,9 @@
     font-weight: 600;
 }
 /* End : Product */
+/* Begin : Pagination */
+.home-product__pagination{
+  margin: 4rem 0 8rem;
+
+}
+/* End : Pagination */

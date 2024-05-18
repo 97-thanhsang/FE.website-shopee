@@ -223,3 +223,37 @@ img {
   color: var(--primary-color);
 }
 /* End : Select */
+/* Begin : Pagination */
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-item{
+  margin: 0 1.2rem;
+}
+.pagination-item--active:hover .pagination-item__link{
+  background-color: #fb6445;
+}
+.pagination-item--active .pagination-item__link{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.pagination-item__link{
+  --height : 3rem;
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgba(0,0,0,.4);
+  min-width: 4rem;
+  height: var(--height);
+  line-height: var(--height);
+  text-align: center;
+  border-radius: var(--value-border-radius);
+}
+
+.pagination-item__link-icon{
+
+}
+/* End : Pagination */

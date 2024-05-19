@@ -1146,5 +1146,176 @@
 }
 /* End : Pagination */
 /* Begin : Footer */
+.footer{
+  border-top:.4rem solid var(--primary-color);
+}
 
+.footer-endow{
+
+}
+.footer-endow-list{
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-endow__item{
+  display: flex;
+  font-size: var(--value-font-size-16);
+  color: rgba(0,0,0,.54);
+  line-height: 1.2;
+  align-items: center;
+}
+.footer-endow__item-icon{
+  font-size: 2.5rem;
+  padding: .9rem;
+  background-color: #d0011b;
+  border-radius: 50%;
+  color: var(--white-color);
+}
+.footer-endow__item-icon--modifier{
+  background-color: #fff;
+  color: #d0011b;
+}
+.footer-endow__item-label{
+  margin-left: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info{
+
+}
+.footer-info__heading{
+
+}
+.footer-info-list{
+
+}
+.footer-info-list__item{
+
+}
+.footer-info-list__item-link{
+
+}
+.footer-info-payment{
+
+}
+.footer-info-payment__item{
+
+}
+.footer-info-payment__item-img{
+
+}
+.footer-info-transport{
+
+}
+.footer-info-transport__item{
+
+}
+.footer-info-transport__item-img{
+
+}
+.footer-info-contact{
+
+}
+.footer-info-contact__item{
+
+}
+.footer-info-contact__item-link{
+
+}
+.footer-info-contact__item-icon{
+
+}
+.footer-info-contact__item-label{
+
+}
+.footer-info-download{
+
+}
+.footer-info-download__qr{
+
+}
+.footer-info-download__qr-img{
+
+}
+.footer-info-download__list{
+
+}
+.footer-info-download__list-item{
+
+}
+.footer-info-download__list-item-link{
+
+}
+.footer-info-download__list-item-icon{
+
+}
+.footer-info-download__list-item-label{
+
+}
+.footer-copyright-1{
+
+}
+.footer-copyright-1__label{
+
+}
+.footer-copyright-1__list{
+
+}
+.footer-copyright-1__list-item{
+
+}
+.footer-copyright-1__list-item-link{
+
+}
+.footer-copyright-2{
+
+}
+.footer-copyright-2-1{
+
+}
+.footer-copyright-2-1__list{
+
+}
+.footer-copyright-2-1__list-item{
+
+}
+.footer-copyright-2-1__list-item-link{
+
+}
+.footer-copyright-2-2{
+
+}
+.footer-copyright-2-2__list{
+
+}
+.footer-copyright-2-2__list-item{
+
+}
+.footer-copyright-2-2__list-item-link{
+
+}
+.footer-copyright-2-2__list-item-icon{
+
+}
+.footer-copyright-2-3{
+
+}
+.footer-copyright-2-3__item{
+
+}
+.footer-copyright-2-4{
+
+}
+.footer-copyright-2-4__list{
+
+}
+.footer-copyright-2-4__list-item{
+
+}
+.footer-copyright-2-4__list-item-label{
+
+}
 /* End : Footer */

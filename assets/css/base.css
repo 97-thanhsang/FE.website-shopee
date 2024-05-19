@@ -86,10 +86,30 @@ img {
   padding-right: .5rem;
   width: 20%;
 }
+.grid__column-4{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 33.3334%;
+}
+.grid__column-6{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 50%;
+}
+.grid__column-8{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 66.6667%;
+}
 .grid__column-10{
   padding-left: .5rem;
   padding-right: .5rem;
   width: 83.3334%;
+}
+.grid__column-12{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 100%;
 }
 /* End : Responesive */
 

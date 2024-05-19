@@ -86,6 +86,11 @@ img {
   padding-right: .5rem;
   width: 20%;
 }
+.grid__column-3{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 25%;
+}
 .grid__column-4{
   padding-left: .5rem;
   padding-right: .5rem;
@@ -100,6 +105,11 @@ img {
   padding-left: .5rem;
   padding-right: .5rem;
   width: 66.6667%;
+}
+.grid__column-9{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 75%;
 }
 .grid__column-10{
   padding-left: .5rem;

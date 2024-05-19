@@ -1291,19 +1291,32 @@
   font-weight: 600;
 }
 .footer-copyright-1{
-
+  padding: 3rem 0;
 }
 .footer-copyright-1__label{
-
+  font-size: var(--value-font-size-13);
+  color: rgba(0,0,0,.54);
+  display: inline-flex;
 }
 .footer-copyright-1__list{
-
+  display: flex;
+  flex-direction: row;
 }
 .footer-copyright-1__list-item{
-
+  /* margin: 0 .8rem; */
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: .1rem solid rgba(0,0,0,.2);
+}
+.footer-copyright-1__list-item:first-child{
+  margin-left:1rem;
+  padding-left:0;
+  border-left: 0;
 }
 .footer-copyright-1__list-item-link{
-
+  font-size: var(--value-font-size-13);
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
 }
 .footer-copyright-2{
 

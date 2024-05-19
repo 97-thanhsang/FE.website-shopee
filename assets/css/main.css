@@ -1151,10 +1151,9 @@
 }
 
 .footer-endow{
-
 }
 .footer-endow-list{
-  height: 12rem;
+  margin: 3rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1184,25 +1183,38 @@
 }
 
 .footer-info{
-
+  padding: 3rem 0;
+  border-top: 1px solid rgba(0,0,0,.09);
+  background-color: #fbfbfb;
 }
 .footer-info__heading{
-
+  text-transform: uppercase;
 }
 .footer-info-list{
-
+  padding: 0;
 }
 .footer-info-list__item{
-
+  line-height: 2.4rem;
 }
 .footer-info-list__item-link{
-
+  text-decoration: none;
+  font-size: var(--value-font-size-12);
+  color: rgba(0,0,0,.45);
+}
+.footer-info-list__item-link:hover
+{
+  color:var(--primary-color);
 }
 .footer-info-payment{
 
 }
 .footer-info-payment__item{
-
+  border-radius: .2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,.2);
+  width: 6rem;
+  height: 3rem;
+  margin: .4rem 0;
 }
 .footer-info-payment__item-img{
 
@@ -1211,7 +1223,12 @@
 
 }
 .footer-info-transport__item{
-
+  border-radius: .2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,.2);
+  width: 6rem;
+  height: 3rem;
+  margin: .4rem 0;
 }
 .footer-info-transport__item-img{
 
@@ -1220,40 +1237,58 @@
 
 }
 .footer-info-contact__item{
-
+  line-height: 2.4rem;
 }
 .footer-info-contact__item-link{
-
+  text-decoration: none;
 }
 .footer-info-contact__item-icon{
-
+  font-size: var(--value-font-size-13);
+  margin-right: .4rem;
+  color: var(--text-color);
 }
 .footer-info-contact__item-label{
-
+  font-size: var(--value-font-size-12);
+  color: rgba(0,0,0,.45);
 }
 .footer-info-download{
 
 }
 .footer-info-download__qr{
-
+  display: flex;
+  border-radius: .2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,.2);
 }
 .footer-info-download__qr-img{
-
+  padding: .4rem;
+  flex: 1;
 }
 .footer-info-download__list{
-
+  margin-top: .8rem;
 }
 .footer-info-download__list-item{
+  /* line-height: 2.4rem; */
+  margin-bottom: 2rem;
 
 }
 .footer-info-download__list-item-link{
-
+  text-decoration: none;
+  margin: 1.2rem 0;
+  padding: .8rem;
+  border-radius: .2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,.2);
 }
 .footer-info-download__list-item-icon{
-
+  font-size: var(--value-font-size-13);
+  margin-right: .4rem;
+  color: var(--text-color);
 }
 .footer-info-download__list-item-label{
-
+  font-size: var(--value-font-size-12);
+  color: var(--text-color);
+  font-weight: 600;
 }
 .footer-copyright-1{
 

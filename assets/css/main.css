@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 10;
 }
 .header__navbar {
   display: flex;
@@ -407,7 +407,7 @@
 }
 .auth-form__socials--facebook {
   color: var(--white-color);
-  background-color: #3a5a98;
+  background-color: var(--facebook-color);
 }
 .auth-form__socials--facebook .auth-form__socials-icon {
   color: var(--white-color);
@@ -721,7 +721,7 @@
   font-weight: var(--value-font-weight-400);
 }
 .header__cart-list-items {
-  height: 55vh;
+  max-height: 55vh;
   overflow-y: auto;
 }
 .header__cart-item {
@@ -803,7 +803,7 @@
 /* Begin : App - Container */
 .app__container{
   background-color: #F5F5F5;
-  padding-top: var(--header-height);
+  margin-top: var(--header-height);
 }
 .app__content{
   padding-top: 1.4rem;
@@ -1172,7 +1172,7 @@
 .footer-endow__item{
   display: flex;
   font-size: var(--value-font-size-16);
-  color: rgba(0,0,0,.54);
+  color: var(--light-black-color);  
   line-height: 1.2;
   align-items: center;
 }
@@ -1308,12 +1308,13 @@
 }
 .footer-copyright-1__label{
   font-size: var(--value-font-size-13);
-  color: rgba(0,0,0,.54);
+  color: var(--light-black-color);  
   display: inline-flex;
 }
 .footer-copyright-1__list{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .footer-copyright-1__list-item{
   /* margin: 0 .8rem; */
@@ -1328,7 +1329,7 @@
 }
 .footer-copyright-1__list-item-link{
   font-size: var(--value-font-size-13);
-  color: rgba(0,0,0,.54);
+  color: var(--light-black-color);  
   text-decoration: none;
 }
 .footer-copyright-2{
@@ -1356,7 +1357,7 @@
 .footer-copyright-2-1__list-item-link{
   text-decoration: none;
   font-size: var(--value-font-size-12);
-  color: rgba(0,0,0,.54);
+  color: var(--light-black-color);  
 }
 .footer-copyright-2-2{
   height: 8rem;
@@ -1381,7 +1382,7 @@
 }
 .footer-copyright-2-3__item{
   font-size: var(--value-font-size-12);
-  color: rgba(0,0,0,.54);
+  color: var(--light-black-color);  
 }
 .footer-copyright-2-4{
 
@@ -1398,6 +1399,6 @@
 }
 .footer-copyright-2-4__list-item-label{
   font-size: var(--value-font-size-12);
-  color: rgba(0,0,0,.54);
+  color: var(--light-black-color);  
 }
 /* End : Footer */

@@ -6,6 +6,11 @@
   --border-color : #dbdbdb;
   --gold-color : rgba(255,176,0,1);
 
+  --light-black-color : rgba(0,0,0,.54);
+
+
+  --facebook-color : #3a5a98;
+
   --header-height : 12rem;
   --navbar-height:3.548rem;
   --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
@@ -63,14 +68,14 @@ img {
   font-style: normal;
 }
 /* Begin : Responesive */
-.grid {
+/* .grid {
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
 }
 .grid__full-width {
   width: 100%;
-}
+} */
 .grid__row {
   display: flex;
   flex-wrap: wrap;
@@ -123,7 +128,6 @@ img {
   width: 100%;
 }
 /* End : Responesive */
-
 /* Begin : Root */
 .d-none{
   display: none!important;

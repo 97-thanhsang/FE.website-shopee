@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website - Shopee</title>
+    <title>Shopee</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon.png">
+    <link rel="icon" href="assets/img/places/place3.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/animation.css">
-    <link rel="stylesheet" href="./assets/css/responesive.css">
+    <link rel="stylesheet" href="./assets/css/responesive-root.css">
+    <link rel="stylesheet" href="./assets/css/responesive-main.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,20 +23,20 @@
     <div class="app" id="app">
         <!-- Begin : Header -->
         <header class="header">
-            <div class="grid">
-                <nav class="header__navbar">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-table">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                             Shopee
                             <div class="header__qr">
-                                <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                <img onerror="this.src='./assets/img/empty.png'" src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
                                 <div class="header__qr-apps">
                                     <a href="#" class="header__qr-link">
-                                        <img src="./assets/img/chplay.png" alt="CH Play"
+                                        <img onerror="this.src='./assets/img/empty.png'" src="./assets/img/chplay.png" alt="CH Play"
                                             class="header__qr-download-img">
                                     </a>
                                     <a href="#" class="header__qr-link">
-                                        <img src="./assets/img/appstore.png" alt="App Store"
+                                        <img onerror="this.src='./assets/img/empty.png'" src="./assets/img/appstore.png" alt="App Store"
                                             class="header__qr-download-img">
                                     </a>
                                 </div>
@@ -62,7 +65,7 @@
                                 <ul class="header__notify-list">
                                     <li class="header__notify-item header__notify-item--viewed">
                                         <a href="#" class="header__notify-link">
-                                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-air-m1-2020-gold-600x600.jpg"
+                                            <img onerror="this.src='./assets/img/empty.png'" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-air-m1-2020-gold-600x600.jpg"
                                                 alt="" class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">
@@ -76,7 +79,7 @@
                                     </li>
                                     <li class="header__notify-item header__notify-item--viewed">
                                         <a href="#" class="header__notify-link">
-                                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_air_m2_1_1.jpg"
+                                            <img onerror="this.src='./assets/img/empty.png'" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_air_m2_1_1.jpg"
                                                 alt="" class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">
@@ -90,7 +93,7 @@
                                     </li>
                                     <li class="header__notify-item">
                                         <a href="#" class="header__notify-link">
-                                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mba13-m3-silver-gallery1-202402_6.jpg"
+                                            <img onerror="this.src='./assets/img/empty.png'" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mba13-m3-silver-gallery1-202402_6.jpg"
                                                 alt="" class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">
@@ -104,7 +107,7 @@
                                     </li>
                                     <li class="header__notify-item">
                                         <a href="#" class="header__notify-link">
-                                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/v/n/vn_macbook_pro_14_in_m3_pro_max_silver_pdp_image_position-1.jpg"
+                                            <img onerror="this.src='./assets/img/empty.png'" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/v/n/vn_macbook_pro_14_in_m3_pro_max_silver_pdp_image_position-1.jpg"
                                                 alt="" class="header__notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">
@@ -132,7 +135,7 @@
                         <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
                         <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
                         <li class="header__navbar-item header__navbar-user">
-                            <img src="./assets/img/avatar.png" alt="" class="header__navbar-user-img">
+                            <img onerror="this.src='./assets/img/empty.png'" src="./assets/img/avatar.png" alt="" class="header__navbar-user-img">
                             <span class="header__navbar-user-name">Thanh Sang</span>
                             <ul class="header__navbar-user-menu">
                                 <li class="header__navbar-user-item">
@@ -154,7 +157,7 @@
                 <!-- Begin : Search -->
                 <div class="header-with-search">
                     <!-- Begin : Logo -->
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-table">
                         <a href="/website-shopee" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
                                 <g fill-rule="evenodd">
@@ -222,7 +225,7 @@
                             <!-- No Cart : header__cart-list--no-cart -->
                             <div class="header__cart-list">
                                 <!-- html : no-cart -->
-                                <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                <img onerror="this.src='./assets/img/empty.png'" src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
                                 <span class="header__cart-list-no-cart-message">
                                     Chưa có sản phẩm
                                 </span>
@@ -230,7 +233,7 @@
                                 <h3 class="header__cart-heading">Sản phẩm đã thêm</h3>
                                 <ul class="header__cart-list-items">
                                     <li class="header__cart-item">
-                                        <img src="https://down-vn.img.susercontent.com/file/ed1d8c580ba33a5daba69e3bd15a02e7"
+                                        <img onerror="this.src='./assets/img/empty.png'" src="https://down-vn.img.susercontent.com/file/ed1d8c580ba33a5daba69e3bd15a02e7"
                                             alt="" class="header__cart-item-img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
@@ -252,7 +255,7 @@
                                         </div>
                                     </li>
                                     <li class="header__cart-item">
-                                        <img src="https://down-vn.img.susercontent.com/file/575e04c0e1d08b5f1b9f624a8d6b1419"
+                                        <img onerror="this.src='./assets/img/empty.png'" src="https://down-vn.img.susercontent.com/file/575e04c0e1d08b5f1b9f624a8d6b1419"
                                             alt="" class="header__cart-item-img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
@@ -275,7 +278,7 @@
                                         </div>
                                     </li>
                                     <li class="header__cart-item">
-                                        <img src="https://down-vn.img.susercontent.com/file/00d05024f492dcec4efae04c1521b66a"
+                                        <img onerror="this.src='./assets/img/empty.png'" src="https://down-vn.img.susercontent.com/file/00d05024f492dcec4efae04c1521b66a"
                                             alt="" class="header__cart-item-img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
@@ -310,7 +313,7 @@
         <!-- End : Header -->
         <!-- Begin : container -->
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content">
                     <div class="grid__column-2">
                         <!-- Begin : category -->
@@ -339,7 +342,7 @@
                     </div>
                     <div class="grid__column-10">
                         <!-- Begin : Filter -->
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-table">
                             <span class="home-filter-label">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
                             <button class="home-filter__btn btn btn--primary ">Mới nhất</button>
@@ -913,7 +916,7 @@
         <!-- Begin : footer -->
         <footer class="footer">
             <section class="footer-endow">
-                <div class="grid">
+                <div class="grid wide">
                     <div class="footer-endow-list ">
                         <div class="footer-endow__item">
                             <i class="footer-endow__item-icon footer-endow__item-icon--modifier fa-solid fa-rotate-left"></i>
@@ -941,7 +944,7 @@
                 </div>
             </section>
             <section class="footer-info">
-                <div class="grid">
+                <div class="grid wide">
                     <div class="grid__row">
                         <div class="grid__column-2-4">
                             <h3 class="footer-info__heading">Chăm sóc khách hàng</h3>
@@ -1022,48 +1025,48 @@
                                         <div class="grid__row">
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/visa.png" alt="visa">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/visa.png" alt="visa">
                                                 </div>
                                                 
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/mastercard.png" alt="mastercard">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/mastercard.png" alt="mastercard">
                                                 </div>
                                                
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/jcb.png" alt="jcb">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/jcb.png" alt="jcb">
                                                 </div>                                            
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/american.png" alt="american">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/american.png" alt="american">
                                                 </div>
                                                 
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/cod.png" alt="cod">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/cod.png" alt="cod">
                                                 </div>
                                                 
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/tragop.png" alt="tragop">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/tragop.png" alt="tragop">
                                                 </div>
                                                 
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/spay.png" alt="visa">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/spay.png" alt="visa">
                                                 </div>
                                                 
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-payment__item">
-                                                    <img class="footer-info-payment__item-img" src="./assets/img/pay/spaylater.png" alt="visa">
+                                                    <img onerror="this.src='./assets/img/empty.png'" class="footer-info-payment__item-img" src="./assets/img/pay/spaylater.png" alt="visa">
                                                 </div>
                                                 
                                             </div>
@@ -1079,57 +1082,57 @@
                                         <div class="grid__row">
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/spx.png" alt="SPX" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/spx.png" alt="SPX" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>                                            
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/ghtk.png" alt="GHTK" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/ghtk.png" alt="GHTK" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/ghn.png" alt="GHN" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/ghn.png" alt="GHN" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/viettel.png" alt="VIETTEL" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/viettel.png" alt="VIETTEL" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/vietpost.png" alt="VIETPOST" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/vietpost.png" alt="VIETPOST" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/jt.png" alt="J&T" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/jt.png" alt="J&T" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/grab.png" alt="GARB" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/grab.png" alt="GARB" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/ninja.png" alt="NINJA" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/ninja.png" alt="NINJA" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/best.png" alt="BEST" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/best.png" alt="BEST" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/be.png" alt="BE" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/be.png" alt="BE" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                             <div class="grid__column-4">
                                                 <div class="footer-info-transport__item">
-                                                    <img src="assets/img/transport/ahamove.png" alt="AHAMOVE" class="footer-info-transport__item-img">
+                                                    <img onerror="this.src='./assets/img/empty.png'" src="assets/img/transport/ahamove.png" alt="AHAMOVE" class="footer-info-transport__item-img">
                                                 </div>
                                             </div>
                                         </div>
@@ -1168,7 +1171,7 @@
                                 <div class="grid__row">
                                     <div class="grid__column-6">
                                         <div class="footer-info-download__qr">
-                                            <img class="footer-info-download__qr-img" src="./assets/img/qr_code.png" alt="QR">
+                                            <img onerror="this.src='./assets/img/empty.png'" class="footer-info-download__qr-img" src="./assets/img/qr_code.png" alt="QR">
                                         </div>
                                         
                                     </div>
@@ -1195,7 +1198,7 @@
                 </div>
             </section>
             <section class="footer-copyright-1">
-                <div class="grid">
+                <div class="grid wide">
                     <div class="grid__row">
                         <div class="grid__column-3">
                             <div class="footer-copyright-1__label">
@@ -1268,7 +1271,7 @@
                 </div>
             </section>
             <section class="footer-copyright-2">
-                <div class="grid">
+                <div class="grid wide">
                     <div class="grid__row">
                         <div class="grid__column-12">
                             
@@ -1300,12 +1303,12 @@
                     <ul class="footer-copyright-2-2__list">
                         <li class="footer-copyright-2-2__list-item">
                             <a href="#" class="footer-copyright-2-2__list-item-link">
-                                <img src="assets/img/sign.png" alt="SGIN" class="footer-copyright-2-2__list-item-icon">
+                                <img onerror="this.src='./assets/img/empty.png'" src="assets/img/sign.png" alt="SGIN" class="footer-copyright-2-2__list-item-icon">
                             </a>
                         </li>
                         <li class="footer-copyright-2-2__list-item">
                             <a href="#" class="footer-copyright-2-2__list-item-link">
-                                <img src="assets/img/sgin-2.png" alt="SGIN2" class="footer-copyright-2-2__list-item-icon">
+                                <img onerror="this.src='./assets/img/empty.png'" src="assets/img/sgin-2.png" alt="SGIN2" class="footer-copyright-2-2__list-item-icon">
                             </a>
                         </li>
                     </ul>

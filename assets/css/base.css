@@ -32,6 +32,7 @@ html {
   line-height: 1.6rem;
   font-family: "Roboto", "sans-serif";
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 ul {
   list-style: none;
@@ -287,3 +288,17 @@ img {
 
 }
 /* End : Pagination */
+/* Begin : Scroll Top */
+.scroll-top{
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+}
+.scroll-top-icon{
+  font-size: 4rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  color: var(--primary-color);
+}
+/* End : Scroll Top */

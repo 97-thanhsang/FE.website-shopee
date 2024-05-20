@@ -53,6 +53,10 @@
 }
 /* MOBILE */
 @media (max-width: 46.1875em) {
+    .app__container{
+        margin-left: .6rem;
+        margin-right: .6rem;
+    }
     .hide-on-mobile{
         display: none;
     }
@@ -93,4 +97,13 @@
     .header__cart{
         width: unset;
     }
+    .pagination-item{
+        margin: 0;
+    }
+    .pagination-item__link{
+        --height : 2.8rem;
+        font-size: var(--value-font-size-16);
+        min-width: 3.6rem;
+    }
+
 }

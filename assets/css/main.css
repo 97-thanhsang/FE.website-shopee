@@ -1090,7 +1090,9 @@
     border-top: .4rem solid currentColor;
     border-left: .4rem solid transparent;
 
-    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+
+            filter: brightness(40%);
   
 }
 .home-product-item__badge-icon{
@@ -1348,7 +1350,7 @@
   color: rgba(0,0,0,.54);
 }
 .footer-copyright-2-2{
-
+  height: 8rem;
 }
 .footer-copyright-2-2__list{
   display: flex;
@@ -1364,7 +1366,9 @@
   width: 20rem;
 }
 .footer-copyright-2-3{
-
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
 }
 .footer-copyright-2-3__item{
   font-size: var(--value-font-size-12);
@@ -1374,7 +1378,11 @@
 
 }
 .footer-copyright-2-4__list{
-
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
 }
 .footer-copyright-2-4__list-item{
 

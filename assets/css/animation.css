@@ -160,3 +160,29 @@
         transform: translateY(-1rem);
     }
 }
+
+
+
+@-webkit-keyframes sideDown {
+    from{
+        opacity: 0;
+        top: calc(var(--header-height) / 2);
+    }
+    to{
+        opacity: 1;
+        top: calc(var(--header-height));
+    }
+}
+
+
+
+@keyframes sideDown {
+    from{
+        opacity: 0;
+        top: calc(var(--header-height) / 2);
+    }
+    to{
+        opacity: 1;
+        top: calc(var(--header-height));
+    }
+}

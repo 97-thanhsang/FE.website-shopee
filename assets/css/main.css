@@ -5,6 +5,11 @@
 .header {
   height: var(--header-height);
   background-image: linear-gradient(0, #fe6433, #f53e2d);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 .header__navbar {
   display: flex;
@@ -798,6 +803,7 @@
 /* Begin : App - Container */
 .app__container{
   background-color: #F5F5F5;
+  padding-top: var(--header-height);
 }
 .app__content{
   padding-top: 1.4rem;

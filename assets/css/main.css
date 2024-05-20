@@ -923,6 +923,29 @@
 }
 
 /* End : category */
+/* Begin : mobile - category */
+.mobile-category{
+
+}
+.mobile-category__list{
+  display: flex;
+  max-width: 100%;
+  overflow-x: auto;
+}
+.mobile-category__item{
+  flex-shrink: 0;
+}
+.mobile-category__link{
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: var(--value-font-size-14);
+  line-height: 2rem;
+  text-align: center;
+  width: 11rem;
+  height: 4rem;
+  display: block;
+}
+/* End : mobile - category */
 /* Begin : Filter */
 .home-filter{
   background-color: rgba(0, 0, 0, 0.04);

@@ -12,6 +12,7 @@
   --facebook-color : #3a5a98;
 
   --header-height : 12rem;
+  --header-sort-height: 4.6rem;
   --navbar-height:3.548rem;
   --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
 

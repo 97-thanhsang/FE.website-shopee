@@ -34,6 +34,12 @@
     .header__cart-list::after{
         display: none;
     }
+    .app__container{        
+        margin-top: calc(var(--header-height) + var(--header-sort-height));
+      }
+    .header__sort-bar{
+        display: flex;
+    }
 }
 /* TABLET */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {

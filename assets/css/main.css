@@ -183,6 +183,50 @@
   color: var(--white-color);
 }
 /* End : header */
+/* Begin : Header sort */
+.header__sort-bar{
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  height: var(--header-sort-height);
+  background-color: var(--white-color);
+  
+  border-top: .1rem solid #E5E5E5;
+  border-bottom: .1rem solid #E5E5E5;
+  display: none;
+}
+.header__sort-item{
+  flex: 1;
+}
+.header__sort-link{
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: var(--value-font-size-14);
+  display: block;
+  height: 100%;
+  line-height: var(--header-sort-height);
+  text-align: center;
+  position: relative;
+}
+.header__sort-link::before
+{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 60%;
+  border-left: .1rem solid #E5E5E5;
+  transform: translateY(-50%);
+}
+.header__sort-item:first-child .header__sort-link::before{
+  display: none;
+}
+.header__sort-item--active .header__sort-link{
+  color: var(--primary-color);
+}
+
+/* End : Header sort */
 /* Begin : QR Code */
 .header__qr {
   position: absolute;

@@ -40,6 +40,9 @@
     .header__sort-bar{
         display: flex;
     }
+    .mobile-category{
+        display: block;
+    }
 }
 /* TABLET */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
@@ -104,6 +107,12 @@
         --height : 2.8rem;
         font-size: var(--value-font-size-16);
         min-width: 3.6rem;
+    }
+    .header__mobile-search{
+        display: block;
+    }
+    .header__logo-img{
+        width: 11rem;
     }
 
 }

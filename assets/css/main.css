@@ -688,6 +688,7 @@
 /* Begin : Mobile - Search */
 .header__mobile-search{
   padding: 1rem 1.2rem;
+  display: none;
 }
 .header__mobile-search-icon{
   font-size: 2.6rem;
@@ -939,7 +940,7 @@
 /* End : category */
 /* Begin : mobile - category */
 .mobile-category{
-
+  display: none;
 }
 .mobile-category__list{
   display: flex;
@@ -982,7 +983,7 @@
   user-select: none;
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
-
+  padding: 0 .6rem;
 }
 /* End : mobile - category */
 /* Begin : Filter */

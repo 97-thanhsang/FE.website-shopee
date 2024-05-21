@@ -43,7 +43,8 @@
     .mobile-category{
         display: block;
     }
-    .footer-endow-list{
+    
+    .footer-endow{
         padding: 2.6rem 0;
     }
     .footer-endow__item-icon{
@@ -182,5 +183,10 @@
     .header__logo-img{
         width: 11rem;
     }
+
+    .footer-endow{
+        padding: 1.6rem 0;
+    }
+    
 
 }

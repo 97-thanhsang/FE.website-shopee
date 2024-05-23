@@ -127,7 +127,7 @@
 @media (max-width: 46.1875em) {
     .app__container{
         margin-left: .54rem;
-        margin-right: .6rem;
+        margin-right: .54rem;
     }
     .hide-on-mobile{
         display: none;
@@ -187,6 +187,43 @@
     .footer-endow{
         padding: 1.6rem 0;
     }
+    .footer-info{
+      padding: 1.6rem 0;
+    }
+    .footer-copyright-1{
+      padding: 1.6rem 0;
+    }
+    .footer-copyright-2{
+      padding: 1.6rem 0;
+    }
+    .footer-endow__item-icon{
+      flex: 1;
+    }
+    .footer-endow__item-label{
+      flex: 3;
+    }
+
+    .footer{
+      margin: 0 .54rem;
+    }
     
+    .footer-info-download__list-item{
+      line-height: 3.7rem;
+    }
+    .footer-info-download__list-item-link{
+      padding: .4rem;
+    }
+    .footer-copyright-2-1__list{
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-copyright-2-1__list-item{
+      padding-left: unset;
+      margin-left: unset;
+      border-left: unset;
+      line-height: 2;
+      
+    }
 
 }
